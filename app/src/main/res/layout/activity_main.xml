@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
 <androidx.appcompat.widget.AppCompatButton
@@ -19,5 +20,15 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/black"/>
+
+    <Button
+        app:backgroundTint="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Drawable"
+        android:textAllCaps="false"
+        android:typeface="serif"
+        android:background="@drawable/rounded_bg"
+        android:textStyle="bold"/>
 
 </LinearLayout>
